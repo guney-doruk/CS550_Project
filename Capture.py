@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Sun Nov 29 16:16:28 2020
 
@@ -36,8 +36,5 @@ while success:
         cv2.imwrite(path,frame)
         i += 1
         
-        
-
 video_capture.release() 
- 
 cv2.destroyAllWindows() 
