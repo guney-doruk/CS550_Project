@@ -1,0 +1,11 @@
+
+
+
+
+
+Access Key ID:
+AKIAJ4LQ2WGG5ARPLPJQ
+Secret Access Key:
+mg6iSY2fNy5LsmoOkLiE88mpfrAQ0P9GXaKHaCg7
+
+aws rekognition detect-protective-equipment --image "S3Object={Bucket=jagermaysta,Name=4.jpg}" --summarization-attributes MinConfidence=80,RequiredEquipmentTypes="FACE_COVER" --region us-east-2
